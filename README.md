@@ -1,1 +1,1 @@
-# NYT-API-Practice
+# Practice
