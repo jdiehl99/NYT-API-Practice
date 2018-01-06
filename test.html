@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    $.ajax({
+    method: 'GET',
+    url: 'https://gateway.marvel.com:443/v1/public/characters?name=hulk&apikey=5e298b445ee8172f3fd9d2acb6ef02f2'
+}).done(function(response) {
+    console.log(response);
+});
+</script>
+</head>
+<body>
+    
+</body>
+</html>
