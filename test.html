@@ -15,6 +15,7 @@
     url: 'https://gateway.marvel.com:443/v1/public/characters?name=hulk&apikey=5e298b445ee8172f3fd9d2acb6ef02f2'
 }).done(function(response) {
     console.log(response);
+    response.data.results["0"].resourceURI
 });
 </script>
 </head>
