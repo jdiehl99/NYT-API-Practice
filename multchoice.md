@@ -1,10 +1,10 @@
 ## Python
 
 1.  To define a string, the value must be enclosed in:
-curly braces
-quotes  ✅
-brackets
-parentheses
+    a. curly braces
+    b. quotes  ✅
+    c. brackets
+    d. parentheses
 
 2. To print to standard output, use the _____ function.
 console.log
